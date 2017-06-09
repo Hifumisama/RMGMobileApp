@@ -1,27 +1,24 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      <ion-row justify-content-around>
-        <ion-icon ion-col col-2 name="menu"></ion-icon>
-        <ion-col> {{title}} </ion-col>
+      <ion-row>
+        <ion-col>
+          {{title}}
+        </ion-col>
+        <ion-col col-1>
+          <ion-icon name="menu"></ion-icon>
+        </ion-col>
       </ion-row>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-  <ion-row justify-content-center >
-    <ion-col col-6 align-self-center>
-      <ion-img width="160" height="80" src="../../assets/images/IntegrationLogoRMG.png"></ion-img>
+  <ion-row justify-content-center>
+    <ion-img width="160" height="90" src="../../assets/images/IntegrationLogoRMG.png"></ion-img>
+    <h2>Bienvenue sur RetroManGames</h2>
+    <ion-col col-8>
+      <button ion-button block outline color="dark" (click)="linkEspaces()">START</button>
     </ion-col>
-  <p>Bienvenue sur RetroManGames</p>
-  <ion-col col-8>
-    <button
-    ion-button
-    block
-    outline
-    color="dark"
-    (click)= "linkEspaces()">START</button>
-  </ion-col>
-</ion-row>
+  </ion-row>
 </ion-content>
