@@ -3,6 +3,9 @@ import { NavController } from 'ionic-angular';
 
 import { EspacesPage } from "../espaces/espaces";
 import { TarifsPage } from "../tarifs/tarifs";
+import { InfosPratiquesPage } from "../infos-pratiques/infos-pratiques";
+import { ContactPage } from "../contact/contact";
+
 
 @Component({
   selector: 'page-home',
@@ -20,9 +23,9 @@ export class HomePage {
     this.navCtrl.push(TarifsPage);
   }
   linkInfosPratiques(){
-    this.navCtrl.push(EspacesPage);
+    this.navCtrl.push(InfosPratiquesPage);
   }
   linkContact(){
-    this.navCtrl.push(EspacesPage);
+    this.navCtrl.push(ContactPage);
   }
 }

@@ -12,6 +12,8 @@ import { DdrPage } from '../pages/ddr/ddr';
 import { MangasPage } from '../pages/mangas/mangas';
 import { RetroPage } from '../pages/retro/retro';
 import { TarifsPage } from '../pages/tarifs/tarifs';
+import { InfosPratiquesPage } from "../pages/infos-pratiques/infos-pratiques";
+import { ContactPage } from "../pages/contact/contact";
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { TarifsPage } from '../pages/tarifs/tarifs';
     DdrPage,
     MangasPage,
     RetroPage,
-    TarifsPage
+    TarifsPage,
+    InfosPratiquesPage,
+    ContactPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +41,9 @@ import { TarifsPage } from '../pages/tarifs/tarifs';
     DdrPage,
     MangasPage,
     RetroPage,
-    TarifsPage
+    TarifsPage,
+    InfosPratiquesPage,
+    ContactPage
   ],
   providers: [
     StatusBar,
