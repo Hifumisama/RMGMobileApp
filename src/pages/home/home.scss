@@ -1,15 +1,17 @@
 page-home {
+  h1 {
+    font-size: .8em;
+    font-family: "Arcade";
+    text-align:center;
+  }
 
-}
-
-h1 {
-  font-size: .8em;
-  font-family: "Arcade";
-  text-align:center;
-}
-
-h2 {
-  font-size: 2em;
-  font-family: "Arcade";
-  text-align:center;
+  h2 {
+    font-size: 2em;
+    font-family: "Arcade";
+    text-align:center;
+  }
+  ion-label {
+    font-family: "Arcade";
+    text-align: center;
+  }
 }

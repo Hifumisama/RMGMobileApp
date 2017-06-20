@@ -17,13 +17,13 @@
   <ion-row justify-content-center>
     <ion-img width="160" height="90" src="../../assets/images/IntegrationLogoRMG.png"></ion-img>
     <h2>Bienvenue sur RetroManGames</h2>
-    <ion-col col-8>
-      <ion-list inset>
-        <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
-          {{ item }}
-        </button>
+    <ion-col col-10>
+      <ion-list no-lines>
+        <button ion-item (click)="linkEspaces()">Les Espaces</button>
+        <button ion-item (click)="linkTarifs()">Tarifs</button>
+        <button ion-item (click)="linkInfosPratiques()">Infos Pratiques</button>
+        <button ion-item (click)="linkContact()">Nous Contacter</button>
       </ion-list>
-      <button ion-button block outline color="dark" (click)="linkEspaces()">START</button>
     </ion-col>
   </ion-row>
 </ion-content>

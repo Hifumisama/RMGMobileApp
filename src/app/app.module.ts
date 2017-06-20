@@ -11,6 +11,7 @@ import { ArcadePage } from '../pages/arcade/arcade';
 import { DdrPage } from '../pages/ddr/ddr';
 import { MangasPage } from '../pages/mangas/mangas';
 import { RetroPage } from '../pages/retro/retro';
+import { TarifsPage } from '../pages/tarifs/tarifs';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RetroPage } from '../pages/retro/retro';
     ArcadePage,
     DdrPage,
     MangasPage,
-    RetroPage
+    RetroPage,
+    TarifsPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { RetroPage } from '../pages/retro/retro';
     ArcadePage,
     DdrPage,
     MangasPage,
-    RetroPage
+    RetroPage,
+    TarifsPage
   ],
   providers: [
     StatusBar,
