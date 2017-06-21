@@ -1,3 +1,12 @@
 page-infos-pratiques {
-
+  #map {
+    width: 100%;
+    height: 200px;
+  }
+  .contentText {
+    background:black;
+    p, h2,ion-icon {
+      color:white;
+    }
+  }
 }
