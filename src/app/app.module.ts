@@ -20,15 +20,7 @@ import { ContactPage } from "../pages/contact/contact";
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
-    EspacesPage,
-    ArcadePage,
-    DdrPage,
-    MangasPage,
-    RetroPage,
-    TarifsPage,
-    InfosPratiquesPage,
-    ContactPage
+    HomePage
   ],
   imports: [
     BrowserModule,
