@@ -1,1 +1,19 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu [content]="mycontent">
+  <ion-content>
+    <ion-navbar style="background:black;">
+      <ion-title>
+        <h1 style="color:white">Menu</h1>
+      </ion-title>
+    </ion-navbar>
+    <ion-list>
+      <ion-list no-lines>
+        <button ion-item (click)="linkEspaces()">Les Espaces</button>
+        <button ion-item (click)="linkTarifs()">Tarifs</button>
+        <button ion-item (click)="linkInfosPratiques()">Infos Pratiques</button>
+        <button ion-item (click)="linkContact()">Nous Contacter</button>
+      </ion-list>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #mycontent [root]="rootPage"></ion-nav>
