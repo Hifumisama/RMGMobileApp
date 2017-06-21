@@ -19,14 +19,6 @@ import { ContactPage } from "../pages/contact/contact";
   declarations: [
     MyApp,
     HomePage,
-    EspacesPage,
-    ArcadePage,
-    DdrPage,
-    MangasPage,
-    RetroPage,
-    TarifsPage,
-    InfosPratiquesPage,
-    ContactPage
   ],
   imports: [
     BrowserModule,
